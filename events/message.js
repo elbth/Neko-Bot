@@ -9,6 +9,9 @@ const reply = require("../commands/reply");
  */
 module.exports = (client, message) => {
   if (message.content === "ping") {
-    return reply(message);
+    return reply(client, message);
+  }
+  if (message.content === "tubbs") {
+    return reply(client, message);
   }
 }
