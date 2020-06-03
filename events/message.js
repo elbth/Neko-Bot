@@ -8,10 +8,5 @@ const reply = require("../commands/reply");
  * @param {Message} message discord.js.org/#/docs/main/stable/class/Message
  */
 module.exports = (client, message) => {
-  if (message.content === "ping") {
     return reply(client, message);
-  }
-  if (message.content === "tubbs") {
-    return reply(client, message);
-  }
 }
