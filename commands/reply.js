@@ -19,4 +19,7 @@ module.exports = (client, message) => {
           .setThumbnail('attachment://tubbs.png');
         message.channel.send(exampleEmbed);
     }
+    if (message.content === "options") {
+      message.channel.send("1. yard \n2. store \n3. cat album");
+    }
 }
